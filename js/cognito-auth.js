@@ -1,4 +1,4 @@
-/*global WildRydes _config AmazonCognitoIdentity AWSCognito*/
+/*global WildRydes _config and AmazonCognitoIdentity AWSCognito*/
 
 var WildRydes = window.WildRydes || {};
 
