@@ -124,3 +124,16 @@ Here is the code used to test the Lambda function:
 }
 ```
 
+## Key Features
+
+- **User Authentication**: Managed with AWS Cognito.
+- **Ride Matching**: Randomly assigns a unicorn from a predefined fleet.
+- **Backend Logic**: Implemented using AWS Lambda (Node.js).
+- **Data Persistence**: Ride details stored in DynamoDB.
+- **Scalable Design**: Built using AWS Free Tier services with minimal costs (<$1 USD for non-free usage).
+
+## Technical Highlights
+
+- The backend assigns a unicorn to a user request based on the pickup location and logs ride details to the database.
+- Includes robust error handling and adherence to CORS policies.
+- Lambda function enables rapid, serverless deployment and is testable using JSON-based inputs.
